@@ -1,0 +1,166 @@
+body{
+    margin:0px;
+    background:#ffffff;    
+}
+
+section{
+    margin-top: 350px;
+    width: 100%;
+    margin-bottom: -400px;
+    
+}    
+
+div.create{
+    width: 900px;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px solid black;
+    margin: auto;
+    }
+ 
+table{
+    height: 300px;
+    width: 900px;
+    border-top: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    caption-side: top;
+    }
+ 
+td{
+    border-bottom: 1px dotted black;
+    }
+ 
+caption{
+    text-align: center;
+    color:black;
+    }
+input[name='roadAddrPart1']{
+        width:400px;
+    }
+input[name='roadAddrPart2']{
+        width:400px;
+    }
+input[name='addrDetail']{
+        width:400px;
+    }
+.deco1{
+    outline: none;
+    border-style: none;
+}    
+.deco{
+    border-style: none;
+	border-bottom: 1px solid black;
+    outline: none;
+}
+.deco:focus{
+    outline: none;
+	border-bottom: 2px solid rgb(0, 0, 0);
+} 
+.col1 {
+    background-color: #e8e8e8;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 20%;
+    }
+ 
+.col2 {
+    text-align: left;
+    padding: 5px;
+    }
+ 
+.but3 {
+    width: 20%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 48, 48);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;    
+    border:none;   
+    }
+ 
+.but4{
+    width: 20%;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 217, 0);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;    
+    border:none;
+    }
+     
+.but3:hover {
+    background-color: #b9b9b9;
+    color: rgb(0, 0, 0); 
+    }
+ 
+.but4:hover {
+    background-color: rgb(255, 217, 0);
+    color: white;
+    }
+    
+p{
+    font-size: 0.7em;
+    }
+ 
+.g{
+    font-size: 0.7em;
+    }
+ 
+.c{
+    font-size: 0.7em;
+    }
+ 
+.a{
+    font-size: 1.3em;
+    }
+    
+.num{
+    color: red;
+    }
+.btn_post_search {           
+        width: 135px;
+        height: 38px;
+        border: 0px solid #cbcbcb;
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 700;
+        background-color: rgb(48, 48, 48);
+        float:right;
+    }
+.btn_post_search:hover{
+        background-color: #b9b9b9;
+        color: black;
+        border: none;
+    }
+    
+    @media only screen and (max-width: 991px) {
+         table{
+            width: 100%;
+        }
+        div.create{
+            width:100%;
+        }      
+    }    
+
+    @media only screen and (max-width:770px){
+        .but3, .but4{
+            width:15%;
+            height: 35px;
+            font-size: 12px;
+        }
+        input[name='roadAddrPart1']{
+            width:200px;
+        }
+    }
+
+    @media only screen and (max-width:470px){
+       .col1{
+           width: 35%;
+           font-size: 0.5em;
+       }
+    } 

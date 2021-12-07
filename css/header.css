@@ -1,0 +1,236 @@
+@import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css);
+
+:root {
+  
+  /*   --nav_col: #ffffff;  */
+  --top_banner_col: #ececec;
+}
+body{
+  margin:0;
+}
+header{
+  border-bottom:1px solid rgb(116, 116, 116); 
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(255, 102, 0);
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: var(--nav_col);
+}
+/*맨 위에 배너*/
+.top__banner {
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  background-color: var(--top_banner_col);
+  padding: 10px 0px;
+}
+.colchange{
+  color: #2417df;
+}
+
+.fixed-top{ background-color: rgb(255, 255, 255); padding-bottom: 50px;}
+
+.navigation {
+  position: fixed;
+  right:0;
+  left:0;
+  z-index:1004;
+  /*네비바 호버 효과*/
+  justify-content:space-around;
+  align-items: center;
+  /*햄버거 설정*/
+  display: flex;
+  
+}
+
+
+/*네비바 호버 밑줄 효과*/
+.navigation a{
+  color:rgb(5, 5, 5);
+  position: relative;
+  padding:6px 12px; 
+}
+.navigation a::after{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 4px;
+  background: #f1c40f;
+  transition: all .5s ease-out;
+}
+.navigation a:hover::after{
+  width:100%;
+}
+.under_view{
+  margin-top: 5px;
+}
+/*네비바 호버 밑줄 효과 끝*/
+.titleLogo {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0px;
+  padding:30px 0px;
+}
+
+.first_nav {
+  width: 1000px;
+  margin: auto;
+  /*햄버거 설정*/
+  display: flex;
+  list-style: none;
+  
+}
+/*햄버거 설정*/
+/*active 가상클래스 이용후 js에서 기능 설정*/
+.navbar_toggleBtn{
+  display: none;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  bottom:13px;
+}
+.navbar_toggleBtn span:before{
+  content:'\f0c9';
+  font-family: fontawesome;
+  font-size: 33px;
+
+}
+/*햄버거 클릭시 x아이콘으로 전환*/
+.navbar_toggleBtn.active span:before{
+  content:'\f00d';
+  font-family: fontawesome;
+  font-size: 35px;
+}
+/*끝*/
+
+.change:hover .eng {
+  display: none;
+}
+
+.change:hover .kor {
+  display: inline;
+}
+
+.first_nav li {
+  text-align: center;
+  font-size: 20px;
+}
+
+.first_nav > li {
+  width: 180px;
+}
+
+.first_nav > li > ul {
+  position: relative; /*position 안줘도 상관없음 앱솔은 아님*/
+  padding: 0px;
+  width: 180px;
+  display: none;
+  background-color:rgb(255, 255, 255);
+}
+.kor {
+  display: none;
+}
+.first_nav > li:hover > ul {
+  display: block;
+}
+#right_nav {
+  position: absolute;
+  right: 50px;
+  top:2px;  
+  padding: 0px;
+}
+
+#right_nav > li {
+  float: left;
+  width: 50px;
+  text-align: center;
+  font-size: 17px;;
+  margin-left: 15px;
+}
+
+#right_nav > li:hover > ul {
+  display: block;
+}
+
+#right_nav > li > ul {
+  position: absolute;
+  width: 120px;
+  text-align: center;
+  display: none;
+  padding: 0px;
+  right: 94px;
+  background-color:rgb(255, 255, 255);
+}
+
+.line{
+    display: none;
+    
+}
+
+.emmm{
+  width: 100%;
+  height: 253px;
+}
+
+/*반응형 햄버거 설정*/
+@media only screen and (max-width:1250px){
+  .navigation{
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }    
+  .first_nav{
+    display: none;
+    flex-direction: column;
+    align-items: left;
+    width:100%;
+  }
+  .first_nav li{
+    width: 200px;
+    text-align: left;  
+    background-color: rgba(255, 255, 255, 0.507);
+  } 
+  .first_nav > li:hover{
+    background-color: rgb(220, 241, 250, 0.507);
+    width: 200px;
+  }
+  .first_nav li > ul{
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.096);
+  }
+
+  .navbar_toggleBtn{
+    display: block;    
+  }  
+  .navbar_toggleBtn.active{
+    display: block;
+  }
+
+  .first_nav.active{
+    display: flex;
+  }
+  .line{
+    width: 100px;
+    display: inline-block;
+    
+  }
+  
+
+
+}

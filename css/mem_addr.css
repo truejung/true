@@ -1,0 +1,186 @@
+body{
+    margin:0px;
+    background:#ffffff;    
+}
+
+section{
+    margin-top: 350px;
+    width: 100%;
+    margin-bottom: -400px;
+    
+}    
+
+div.create{
+    width: 900px;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px solid black;
+    margin: auto;
+    }
+ 
+table{
+    height: 300px;
+    width: 900px;
+    border-top: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    caption-side: top;
+    }
+ 
+td{
+    border-bottom: 1px dotted black;
+    }
+ 
+caption{
+    text-align: center;
+    color:black;
+    }
+.deco1{
+    outline: none;
+    border-style: none;
+}    
+.deco{
+    border-style: none;
+	border-bottom: 1px solid black;
+    outline: none;
+}
+.deco:focus{
+    outline: none;
+	border-bottom: 2px solid rgb(0, 0, 0);
+} 
+.col1 {
+    background-color: #e8e8e8;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 20%;
+    }
+ 
+.col2 {
+    text-align: left;
+    padding: 5px;
+    }
+.birth1{
+    width: 80px;
+    border-style: none;
+    outline: none;
+}
+.birth3, .birth2{
+    width: 50px;
+    border-style: none;
+    outline: none;
+}
+.phone2, .phone3{
+        width:80px;
+        height:27px;
+        border-style: none;
+        border-bottom: 1px solid black;
+        outline: none;
+    }
+.phone2:focus, .phone3:focus{
+    outline: none;
+	border-bottom: 2px solid rgb(0, 0, 0);
+} 
+.but1 {
+    height: 30px;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border-color: black;
+    }
+ 
+.but2 {
+    height: 30px;
+    width: 140px;
+    color: white;
+    background-color: black;
+    border-color: black;
+    }
+ 
+.but3 {
+    width: 20%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 48, 48);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;    
+    border:none;   
+    }
+ 
+.but4{
+    width: 20%;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 217, 0);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;    
+    border:none;
+    }
+    
+.but1:hover {
+    background-color: #b9b9b9;
+    color: black;
+    border: none;
+    }
+ 
+.but2:hover {
+    background-color: #b9b9b9;
+    color: black;
+    border: none;
+    }
+ 
+.but3:hover {
+    background-color: #b9b9b9;
+    color: rgb(0, 0, 0); 
+    }
+ 
+.but4:hover {
+    background-color: rgb(255, 217, 0);
+    color: white;
+    }
+    
+p{
+    font-size: 0.7em;
+    }
+ 
+.g{
+    font-size: 0.7em;
+    }
+ 
+.c{
+    font-size: 0.7em;
+    }
+ 
+.a{
+    font-size: 1.3em;
+    }
+    
+.num{
+    color: red;
+    }
+
+    @media only screen and (max-width: 991px) {
+         table{
+            width: 100%;
+        }
+        div.create{
+            width:100%;
+        }
+        input[name='mailid']{
+            width: 100px;
+        }
+        input[name='email']{
+            width: 100px;
+        }	
+    }    
+
+    @media only screen and (max-width:550px){
+        .but3, .but4{
+            width:15%;
+            height: 35px;
+            font-size: 12px;
+        }
+    }

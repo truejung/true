@@ -1,0 +1,44 @@
+header{
+    border:0px;
+}
+body{
+    margin: 0px auto;
+}
+section{
+    padding-top: 380px;
+    background-color:white;
+    margin-bottom: -600px;
+    
+   
+}
+.mark_area{
+    text-align: right;
+    padding-right: 105px;    
+    font-size: 14px;
+    color: gray;
+}
+.im1{
+    margin: 20px 50px 40px 100px;
+    width:1700px;
+    height:600px;
+    
+}
+.im2{
+    margin: 10px 40px 20px 450px;
+    width:500px;
+    height:350px;   
+    float:left;
+}
+.about{
+    margin: 20px 40px 20px 200px;
+    font-weight: bold;
+    font-size: small;
+    width: 500px;
+    height: 350px;
+    padding: 70px 30px;
+    overflow:hidden; 
+}
+.subject{
+    font-size:xx-large;
+    font-weight: bold;
+}

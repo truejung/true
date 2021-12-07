@@ -1,0 +1,74 @@
+body{
+    margin:0px;
+    background:white;
+}
+section{
+    width:580px;
+    height:300px;
+    background-color:white;
+    text-align:center;
+    margin:-5vh auto;
+    padding-top: 60px;
+    
+                    
+    
+}
+.login-frm{
+    width:100%;
+    height:60%;
+    margin-top: 350px;
+    line-height:40px;
+}
+.header{
+    font-size:30px;
+    padding-bottom: 15px;
+}			
+#title{
+    font-size: 25px;
+    color:rgb(240, 165, 95);
+}
+input[type=submit]{
+    height:42px;
+    width:263px;
+    font-weight: bold;
+    font-size: 15px;
+}
+input[type=submit]:hover{
+    color:rgb(252, 112, 62);
+}
+.text-id{
+    width:290px;
+    height:32px;
+    
+}
+input[type=password]{
+    width:290px;
+    height:32px;
+
+}
+#aa{				
+    color:black;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+                    
+}
+
+a{
+    text-decoration: none;
+}
+.rows{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon-1{
+    background: url(images/id-icon.png) no-repeat center;
+    
+    height: 32px;
+}
+.icon-2{
+    background: url(images/password-icon.png) no-repeat center;
+    
+    height: 32px;
+}

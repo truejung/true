@@ -1,0 +1,227 @@
+body{
+        margin:0px;
+        background:#ffffff;    
+}
+    
+section{
+        margin-top: 350px;
+        width: 80%;
+        margin-bottom: -600px;
+        padding-left: 320px;        
+}
+  
+.basketdiv {
+    width: 100%;    
+    float:left;
+    font-size: 0.9375em;
+    margin-bottom: 20px;
+           
+}
+#mark_area{
+        text-align: right;  
+        font-size: 15px;
+        color: gray;
+        padding-bottom: 10px;
+    }
+.basketdiv .row.head {
+        border-bottom: 2px solid rgb(0, 0, 0);
+        border-top: 2px solid rgb(0, 0, 0);
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+        font-weight: 600;
+        width: 100%;
+        /*margin-left에 0을 줘야 부스트랩css랑 맞음 border-top 간격 오차해결*/
+        margin-left: 0px;
+}
+
+.basketdiv .data {
+        border-bottom: 1px dashed rgb(0, 0, 0);
+        box-sizing: border-box;
+        cursor: pointer;
+        float: left;
+        width: 100%;
+        /*margin-left에 0을 줘야 부스트랩css랑 맞음 border-top 간격 오차해결*/
+        margin-left: 0px;
+}
+.basketdiv .data .empty{
+        text-align: center;
+        padding: 12px 0;
+}
+.basketdiv .row.head .subdiv {
+        background-color: #f4f4f4;
+}
+.basketdiv .row > .subdiv {
+        display: block;
+        float: left;
+}
+.basketdiv .row > .subdiv:nth-child(1) {
+        width: 50%;
+}
+.basketdiv .row > .subdiv:nth-child(2) {
+        width: 40%;
+}
+.basketdiv .row > .subdiv:nth-child(3) {
+        width: 10%;
+}
+
+.basketdiv .row > div > div {
+        display: block;
+        float: left;
+        text-align: center;
+        margin: 0;
+        padding: 12px 0;
+}
+.basketdiv .row.data > div > div {
+        line-height: 90px;
+    }
+.basketdiv .data .num .updown {
+            color: rgb(46, 46, 46);
+            font-size: 2em;
+            letter-spacing: -5px;
+}
+i:hover{
+        color: #b9b9b9;
+}
+.basketdiv .check {
+            width: 10%;
+}
+.basketdiv .check input[type=checkbox] {
+        transform: scale(1.5);
+}
+.basketdiv .img{
+        width: 30%;
+}
+.basketdiv .pname{
+        width: 60%;
+}
+.basketdiv .basketprice {
+        width: 33%;
+}
+.basketdiv .num {
+    width: 33%;
+    min-width: 105px;
+}
+.basketdiv .sum {
+    width: 34%;
+    max-width: 80px;
+    color: #002daa;
+}
+.basketdiv .point {
+        width: 50%;
+}
+.basketdiv .basketcmd{
+        width: 100%;
+}
+.basketdiv .data .pname {
+    text-align: center !important;    
+}
+.basketdiv .data .price, .basketdiv .data .sum, .basketdiv .data .point {
+        text-align: right;
+}
+.baseform > tbody > tr > td:first-child {
+        width: 100px;
+}
+.buttongroup {
+    padding: 11px 0;
+    margin: 50px 0;
+}
+.narrowbuttongroup{
+    margin: 15px 0;
+}
+.buttongroup.center {
+        text-align: center;
+}
+.buttongroup input[type=text], .buttongroup input[type=password] {
+        height: 30px;
+}
+.buttongroup button, .buttongroup a {
+        margin-right: 5px;
+}
+.buttongroup button:last-child, .buttongroup a:last-child {
+            margin-right: 0;
+}
+.abutton, .abutton:link, .abutton:visited, .abutton:active, input[type=button] {
+        background-color: #383838;
+        border: 1px solid #888888;
+        color: #ffffff;
+        cursor: pointer;
+        letter-spacing: -1px;
+        padding: 3px 5px;
+        margin: 2px 3px;
+        width: auto;
+        word-break: keep-all;
+        text-decoration: none;
+        font-size: 0.9375em;
+        border:none;
+}
+.abutton:hover{
+        color:black;
+        background-color: #b9b9b9;
+}
+.abutton-alt {
+    background-color: #d3e2c6;
+}
+.red {
+    color:#b00;
+}
+.blue {
+  color: #0075ff;
+}
+.basketrowcmd, .sumcount, .summoney{
+  text-align: right;
+  margin-bottom: 10px;   
+}
+.sumcount, .summoney{
+        font-size: 1.25em;
+        font-weight: bold;
+}
+.buttongroup{
+  text-align: center;
+  
+}
+.buttongroup1{
+        text-align: right;
+        padding-top: 20px;
+}
+.buttongroup a{
+  text-decoration: none;
+}
+.buttongroup1 a{
+        text-decoration: none;
+}
+.cmd a, .cmd span {
+    padding: 12px 30px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(255, 217, 0);
+    border: none;
+    text-align: center;
+}
+.cmd1 a, .cmd1 span {
+        padding: 12px 30px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        background-color: rgb(48, 48, 48);
+        border: none;
+        text-align: center;
+}
+.cmd a:hover, .cmd span:hover{
+        background-color: rgb(255, 217, 0);
+        color: white;
+}
+.cmd1 a:hover, .cmd1 span:hover{
+        background-color: #b9b9b9;
+        color: rgb(0, 0, 0);
+}
+.orderform .p_num {
+    text-align: right;
+    width: 40px;
+    font-size: 1em;
+    height: 50px;
+}

@@ -1,0 +1,59 @@
+section{
+    text-align: center;
+    margin-bottom: -500px;
+}
+.subject1,.subject2{
+    margin: 0 auto;
+    padding: 50px 20px;
+    width: 25%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.var{
+    font-size: xxx-large;
+    color: brown;
+}
+.contents1{
+    margin: 30px;
+    font-size: medium;
+}
+.contents2{
+    padding: 40px;
+    font-size: xxx-large;
+}
+.contents3,.contents4{
+    padding:20px;
+    font-size: x-large;
+}
+.image1{
+    margin: 60px 0px;   
+}
+#p1{
+    border-bottom: 4px solid burlywood;
+}
+.b-frm{
+    margin: 100px 0px 100px 50px;
+}
+.sellnum{
+    margin:20px;
+    width:20%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.submit1{
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+    background-color:rgb(255, 217, 0);
+}
+.submit1:hover{
+    color:white;
+    background-color:rgb(255, 217, 0);
+}
+
+@media only screen and (max-width: 991px) {
+	.image1, .img1{
+	    width: 100%;
+	}	
+}

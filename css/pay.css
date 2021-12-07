@@ -1,0 +1,341 @@
+body{
+    margin:0px;
+    background:#ffffff;
+}
+section{
+    margin-top: 400px;
+    width: 100%;
+    margin-bottom: -600px;        
+}
+
+.mb_address {
+	position: relative; right: -110px; top: -32px;
+}
+
+.shop_box {
+    width: 100%;
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid #cecece;
+}
+
+.shop_box2 {
+    width: 100%;
+    border-bottom: 2.5px solid #cecece;
+    height: 112px;
+}
+
+.shop_bow_subject {
+    color: #000000;
+    font-size: 46px;
+    line-height: 1;
+}
+
+.shop_bow_subject2 {
+    color: #000000;
+    font-size: 25px;
+    line-height: 1;
+}
+
+input[type=checkbox]
+{
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
+    padding: 10px;
+}
+
+input[type=radio]
+{
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
+    padding: 10px;
+}
+
+.onesell{
+ margin-left: 10px;
+}
+
+.top_1 {
+    width: calc(100% - 390px);
+    /*calc함수는 괄호안에 식을 계산해서 적용*/
+}
+
+.top_2 {
+    width: 90px;
+}
+
+.top_3 {
+    width: 100px;
+}
+
+.sum_box {
+    width: 161px;
+}
+
+.con_box {
+    width: calc(100% - 176px);
+}
+
+.pro {
+    color: #242424;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.name_subject{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    height: 40px;
+}
+
+input[type='text'] {
+    width: 330px;    
+    color: #343434;
+    font-size: 18px;
+    padding: 0 20px;    
+    border-style: none;
+	border-bottom: 1px solid black;
+}
+input[name='roadAddrPart1']{
+    width:400px;
+}
+input[name='roadAddrPart2']{
+    width:400px;
+}
+input[name='addrDetail']{
+    width:400px;
+}
+input[type='text']:focus{
+	outline: none;
+	border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.ship_btn {
+    font-size: 14px;
+    color: white;
+    background-color: rgb(48, 48, 48);
+    line-height: 31px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.ship_btn:hover{
+    background-color: #b9b9b9;
+    color: black;
+    border: none;
+}
+
+.color_red {
+    color: red;
+}
+
+
+.btn_post_search {
+    margin: 0 0 0 5px;
+    padding: 5px 10px 5px 10px;
+    width: 141px;
+    height: 42px;
+    border: 0px solid #cbcbcb;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(48, 48, 48);
+}
+.btn_post_search:hover{
+    background-color: #b9b9b9;
+    color: black;
+    border: none;
+}
+
+.order_main_btn {
+    display: block;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(255, 217, 0);
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 0;
+}
+.order_main_btn:hover{
+    background-color: rgb(255, 217, 0);
+    color: white;
+}
+#totalSettlePrice {
+    font-size: 36px;
+}
+#member_detail_addr{
+    margin-top:-18px !important;
+}
+input[name='ooname']{
+    margin-left: 10px;
+}
+input[name='ootell']{
+    margin-left: 0px;
+}
+/*동의하는 체크박스 부분*/
+#checkWrap {
+    width: 550px;
+}
+#checkWrap label {
+    display: block;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    padding:0 0 5px 0;
+}
+#checkWrap label input[type="checkbox"] {
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+}
+#checkWrap label:first-child input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+/*끝*/
+
+@media only screen and (max-width: 991px) {
+	.content .shop_left {
+	    width: 100%;
+	}	
+}
+
+@media only screen and (max-width: 1120px) {
+	.sum_box {
+	    width: 125px !important;
+	}
+	
+	.con_box {
+	    width: calc(100% - 125px) !important;
+	}
+	
+	.pro {
+	    font-size: 16px !important;
+	}
+	
+	.top_1 {
+	    width: calc(100% - 283px) !important;
+	}
+	
+	.top_2, .top_3 {
+	    width: 70px !important;
+	}
+		
+}
+
+@media only screen and (max-width: 575px) {
+	.top_1 {
+	    width: calc(100% - 116px) !important;
+	}
+	
+	.top_2 {
+	    width: 56px !important;
+	}
+	
+	.top_3 {
+	    width: 38px !important;
+	}
+	
+	.pro {
+	    font-size: 12px !important;
+	}
+	
+	.con_box {
+	    width: calc(100% - 95px) !important;
+	}
+	
+	.mb_hide {
+		display: none !important;
+	}
+	
+	.shop_box {
+		font-size: 12px !important;
+	}
+	
+	.name_subject {
+	    width: 156px !important;
+	    font-size: 12px !important;        
+	}
+	
+	input[type='text'] {
+	    width: 200px !important;
+	    height: 37px !important;
+	}
+	
+	.ship_btn {
+	    width: 113px !important;
+	    font-size: 13px !important;
+	    padding: 9px 19px !important;
+	    position: absolute !important;
+	    top: 33px !important;
+	    right: 40px !important;
+	}
+	
+	.btn_post_search {
+	    width: 128px !important;
+	    height: 37px !important;
+	    font-size: 15px !important;
+	}
+	
+	input[name='roadAddrPart1'], input[name='addrDetail'], input[name='roadAddrPart2'] {
+	    width: 315px !important;
+	}
+	input[name='ooname']{
+        margin-left: -66px;
+    }
+    input[name='ootell']{
+        margin-left: -70px;
+    }
+    input[name='oname']{
+        margin-left: -70px;
+    }
+    input[name='otell']{
+        margin-left: -70px;
+    }
+    input[name='omail']{
+        margin-left: -70px;
+    }
+    .dv_ment1{
+        margin-left: -60px;
+    }
+    input[name='dv_ment']{
+        width: 280px !important;
+        margin-left: -60px;
+    }
+	.mb_address {
+		position: relative !important;
+        margin-left: -22px;
+	}
+	
+	#totalSettlePrice {
+	    font-size: 26px !important;
+	}
+	
+	.order_main_btn {
+	    height: 59px !important;
+	    font-size: 22px !important;
+	}
+	
+	.ship_btn {
+	    line-height: 7px !important;
+	}
+	
+	.sum_box {
+	    width: 93px !important;
+	}
+}

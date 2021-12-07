@@ -1,0 +1,122 @@
+body{
+    margin:0px;
+    background:#ffffff;
+}
+section{
+    margin-top: 400px;
+    width: 100%;
+    margin-bottom: -600px;        
+}
+
+.shop_box {
+    width: 100%;
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid #cecece;
+}
+
+.shop_box2 {
+    width: 100%;
+    border-bottom: 2.5px solid #cecece;
+    height: 112px;
+}
+
+.shop_bow_subject2 {
+    color: #000000;
+    font-size: 25px;
+    line-height: 1;
+}
+
+.top_1 {
+    width: calc(100% - 390px);
+    /*calc함수는 괄호안에 식을 계산해서 적용*/
+}
+
+.top_2 {
+    width: 120px;
+}
+
+.top_3 {
+    width: 100px;
+}
+
+.sum_box {
+    width: 161px;
+}
+
+.con_box {
+    width: calc(100% - 176px);
+}
+
+.pro {
+    color: #242424;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input[type='text'] {
+    width: 330px;    
+    color: #343434;
+    font-size: 18px;
+    padding: 0 20px;    
+    border-style: none;
+	border-bottom: 1px solid black;
+}
+
+.color_red{
+    color: red;
+}
+.sub_esc{
+    width: 90px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 48, 48);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;    
+    border:none;   
+    }
+.sub_esc:hover {
+        background-color: #b9b9b9;
+        color: rgb(0, 0, 0); 
+        }
+
+@media only screen and (max-width: 1300px) {
+	.pro {
+	    font-size: 16px !important;
+	}
+	
+	.top_1 {
+	    width: calc(100% - 250px) !important;
+	}
+	
+	.top_2, .top_3 {
+	    width: 90px !important;
+	}
+		
+}
+
+@media only screen and (max-width: 575px) {
+	.top_1 {
+	    width: calc(100% - 236px) !important;
+	}
+	
+	.top_2 {
+	    width: 76px !important;
+	}
+	
+	.top_3 {
+	    width: 65px !important;
+	}
+	
+	.pro {
+	    font-size: 12px !important;
+	}
+	
+	.shop_box {
+		font-size: 12px !important;
+	}
+    .sub_esc{
+        width: 50px;
+        font-size: 10px;
+    }
+}
